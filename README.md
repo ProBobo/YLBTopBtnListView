@@ -1,3 +1,4 @@
 # YLBTopBtnListView
 通用按钮选项卡
-pod 'YLBTopBtnListView'
+
+安装pod 'YLBTopBtnListView'
