@@ -12,7 +12,7 @@
                                     ] mutableCopy];
 <br>CGFloat fontHeight = 16;
 <br>UIColor *colorNormal = [UIColor grayColor];
-<br>UIColor *colorSelected = [UIColor purpleColor];
-<br>_topGiftListBtnView = [[TopGiftListBtnView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), 44) titleArray:titleArray fontHeight:fontHeight colorNormal:colorNormal colorSelected:colorSelected titleBtn_Block:^(int tag) {
+<br>UIColor *colorSelected = [UIColor purpleColor];<br>
+<br>TopGiftListBtnView *_topGiftListBtnView = [[TopGiftListBtnView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), 44) titleArray:titleArray fontHeight:fontHeight colorNormal:colorNormal colorSelected:colorSelected titleBtn_Block:^(int tag) {
         [weakSelf titleBtn_Block_Method:tag];
     }];
