@@ -12,7 +12,7 @@ NSMutableArray *titleArray = [@[@"幸运",
                                     @"特殊",
                                     @"积分"
                                     ] mutableCopy];
-                                  \<br /\> 
+                                  <br /> 
     CGFloat fontHeight = 16;
     UIColor *colorNormal = [UIColor grayColor];
     UIColor *colorSelected = [UIColor purpleColor];
