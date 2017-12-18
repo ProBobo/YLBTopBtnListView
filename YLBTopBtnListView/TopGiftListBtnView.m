@@ -13,6 +13,7 @@
 @property(nonatomic , strong)UIColor *colorNormal;
 @property(nonatomic , strong)UIColor *colorSelected;
 @property(nonatomic , assign)int btnTag;
+@property(nonatomic , assign)CGFloat btn_W;
 @end
 
 @implementation TopGiftListBtnView
@@ -33,8 +34,8 @@
         self.colorNormal = colorNormal;
         self.colorSelected = colorSelected;
         self.titleBtn_Block = titleBtn_Block;
-        
-        CGFloat W = CGRectGetWidth(self.frame)/titleArray.count;
+        self.btn_W = CGRectGetWidth(self.frame)/titleArray.count;
+        CGFloat W = _btn_W;
         CGFloat H = CGRectGetHeight(self.frame);//[[PlayCommonMethod sharedInstance] fontSizeHeight:fontHeight];
         CGFloat X = 0;
         CGFloat Y = (CGRectGetHeight(self.frame) - H)/2;
@@ -56,6 +57,8 @@
             [self.titleBtnArray addObject:btn];
             X += W;
         }
+        
+        [self addSubview:self.bottomLine];
     }
     return self;
 }
@@ -72,6 +75,23 @@
         _titleBtnArray = [@[] mutableCopy];
     }
     return _titleBtnArray;
+}
+- (UIView *)bottomLine
+{
+    if (!_bottomLine) {
+        CGFloat W = 16;
+        CGFloat H = 4;
+        CGFloat btn_W = _btn_W;
+        CGFloat X =  btn_W / 2;
+        CGFloat Y = CGRectGetHeight(self.frame) - 4 - H;
+        
+        _bottomLine = [[UIView alloc] initWithFrame:CGRectMake(0, Y, W, H)];
+        _bottomLine.center = CGPointMake(btn_W / 2 , _bottomLine.center.y);
+        _bottomLine.layer.masksToBounds = YES;
+        _bottomLine.layer.cornerRadius = CGRectGetHeight(_bottomLine.frame)/2.0;
+        _bottomLine.backgroundColor = self.colorSelected;
+    }
+    return _bottomLine;
 }
 - (void)titleBtnArray_Method:(id)sender
 {
@@ -101,5 +121,9 @@
             [titleBtn setTitleColor:self.colorNormal forState:UIControlStateNormal];
         }
     }
+    CGFloat btn_W = _btn_W;
+    [UIView animateWithDuration:0.2 animations:^{
+        self.bottomLine.center = CGPointMake(btn_W / 2 + btn_W*tag , self.bottomLine.center.y);
+    }];
 }
 @end

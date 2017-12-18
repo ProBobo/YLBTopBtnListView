@@ -10,6 +10,7 @@
 typedef void (^TopGiftListBtnView_TitleBtn_Block)(int tag);
 @interface TopGiftListBtnView : UIView
 @property(nonatomic , strong)NSMutableArray *titleBtnArray;
+@property(nonatomic , strong)UIView *bottomLine;
 @property(nonatomic , copy)TopGiftListBtnView_TitleBtn_Block titleBtn_Block;
 
 - (instancetype)initWithFrame:(CGRect)frame titleArray:(NSMutableArray *)titleArray fontHeight:(CGFloat)fontHeight colorNormal:(UIColor *)colorNormal colorSelected:(UIColor *)colorSelected titleBtn_Block:(TopGiftListBtnView_TitleBtn_Block)titleBtn_Block;
