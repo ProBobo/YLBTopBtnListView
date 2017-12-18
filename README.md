@@ -5,8 +5,7 @@
 
 或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ylb3303/YLBTopBtnListView.git'
 
-用法：  
-NSMutableArray *titleArray = [@[@"幸运",
+用法：<br>NSMutableArray *titleArray = [@[@"幸运",
                                     @"奢华",
                                     @"特殊",
                                     @"积分"
