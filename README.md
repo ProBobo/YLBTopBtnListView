@@ -6,12 +6,13 @@
 或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ylb3303/YLBTopBtnListView.git'
 
 用法：
-
+<br />  
 NSMutableArray *titleArray = [@[@"幸运",
                                     @"奢华",
                                     @"特殊",
                                     @"积分"
                                     ] mutableCopy];
+                                  \<br /\> 
     CGFloat fontHeight = 16;
     UIColor *colorNormal = [UIColor grayColor];
     UIColor *colorSelected = [UIColor purpleColor];
