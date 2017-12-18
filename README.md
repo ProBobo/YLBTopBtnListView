@@ -5,10 +5,10 @@
 
 或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ylb3303/YLBTopBtnListView.git'
 
-用法：<br>NSMutableArray *titleArray = [@[@"幸运",
-                                    @"奢华",
-                                    @"特殊",
-                                    @"积分"
+用法：<br>NSMutableArray *titleArray = [@[@"按钮标题1",
+                                    @"按钮标题2",
+                                    @"按钮标题3",
+                                    @"按钮标题4"
                                     ] mutableCopy];
 <br>CGFloat fontHeight = 16;
 <br>UIColor *colorNormal = [UIColor grayColor];
