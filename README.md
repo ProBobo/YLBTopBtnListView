@@ -11,7 +11,7 @@ NSMutableArray *titleArray = [@[@"幸运",
                                     @"特殊",
                                     @"积分"
                                     ] mutableCopy];
-CGFloat fontHeight = 16;
+<br>CGFloat fontHeight = 16;
 UIColor *colorNormal = [UIColor grayColor];
 UIColor *colorSelected = [UIColor purpleColor];
 _topGiftListBtnView = [[TopGiftListBtnView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), 44) titleArray:titleArray fontHeight:fontHeight colorNormal:colorNormal colorSelected:colorSelected titleBtn_Block:^(int tag) {
