@@ -77,6 +77,9 @@
 {
     UIButton *btn = sender;
     int tag = (int)btn.tag;
+    if (self.btnTag == tag) {
+        return;
+    }
     [self changeBtn_Method:tag];
     if (self.titleBtn_Block) {
         self.titleBtn_Block(tag);
