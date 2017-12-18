@@ -5,11 +5,11 @@
 
 或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ylb3303/YLBTopBtnListView.git'
 
-用法：<br>NSMutableArray *titleArray = [@[@"按钮标题1",
-                                    @"按钮标题2",
-                                    @"按钮标题3",
-                                    @"按钮标题4"
-                                    ] mutableCopy];
+用法：<br>NSMutableArray *titleArray = [@[@"选项按钮标题1",
+                                    <br>@"选项按钮标题2",
+                                    <br>@"选项按钮标题3",
+                                    <br>@"选项按钮标题4"
+                                    <br>] mutableCopy];
 <br>CGFloat fontHeight = 16;
 <br>UIColor *colorNormal = [UIColor grayColor];
 <br>UIColor *colorSelected = [UIColor purpleColor];<br>
