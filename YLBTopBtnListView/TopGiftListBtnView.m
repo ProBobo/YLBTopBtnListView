@@ -3,7 +3,7 @@
 //  QiYuLive
 //
 //  Created by 余礼钵 on 2017/12/17.
-//  Copyright © 2017年 奇遇直播. All rights reserved.
+//  Copyright © 2017年 余礼钵. All rights reserved.
 //
 
 #import "TopGiftListBtnView.h"
