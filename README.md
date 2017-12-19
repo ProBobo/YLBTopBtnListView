@@ -3,8 +3,8 @@
 <br>
 <br>安装：pod 'YLBTopBtnListView'
 <br>或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ylb3303/YLBTopBtnListView.git'
-用法：
 <br>
+用法：
 `
 NSMutableArray *titleArray = [@[@"选项按钮标题1",
                                     <br>@"选项按钮标题2",
