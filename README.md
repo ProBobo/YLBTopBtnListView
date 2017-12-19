@@ -16,6 +16,6 @@ UIColor *colorNormal = [UIColor grayColor];
 UIColor *colorSelected = [UIColor purpleColor];
 
 TopGiftListBtnView *_topGiftListBtnView = [[TopGiftListBtnView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.frame), 44) titleArray:titleArray fontHeight:fontHeight colorNormal:colorNormal colorSelected:colorSelected titleBtn_Block:^(int tag) {
-        [weakSelf titleBtn_Block_Method:tag];
+        //[weakSelf titleBtn_Block_Method:tag];
     }];
 </code></pre>
