@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525AA0821FEA202600EB9494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0811FEA202600EB9494 /* AppDelegate.m */; };
+		525AA0851FEA202600EB9494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0841FEA202600EB9494 /* ViewController.m */; };
+		525AA0881FEA202700EB9494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525AA0861FEA202700EB9494 /* Main.storyboard */; };
+		525AA08A1FEA202700EB9494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525AA0891FEA202700EB9494 /* Assets.xcassets */; };
+		525AA08D1FEA202700EB9494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525AA08B1FEA202700EB9494 /* LaunchScreen.storyboard */; };
+		525AA0901FEA202700EB9494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA08F1FEA202700EB9494 /* main.m */; };
+		525AA09A1FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0991FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m */; };
+		525AA0A51FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0A41FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m */; };
+		525AA0B51FEA209A00EB9494 /* TopGiftListBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0B31FEA209A00EB9494 /* TopGiftListBtnView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525AA0961FEA202700EB9494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525AA0751FEA202600EB9494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525AA07C1FEA202600EB9494;
+			remoteInfo = YLBTopBtnListViewDemo;
+		};
+		525AA0A11FEA202700EB9494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525AA0751FEA202600EB9494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525AA07C1FEA202600EB9494;
+			remoteInfo = YLBTopBtnListViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525AA07D1FEA202600EB9494 /* YLBTopBtnListViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBTopBtnListViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525AA0801FEA202600EB9494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		525AA0811FEA202600EB9494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		525AA0831FEA202600EB9494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		525AA0841FEA202600EB9494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		525AA0871FEA202700EB9494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525AA0891FEA202700EB9494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525AA08C1FEA202700EB9494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525AA08E1FEA202700EB9494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525AA08F1FEA202700EB9494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		525AA0951FEA202700EB9494 /* YLBTopBtnListViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLBTopBtnListViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525AA0991FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBTopBtnListViewDemoTests.m; sourceTree = "<group>"; };
+		525AA09B1FEA202700EB9494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525AA0A01FEA202700EB9494 /* YLBTopBtnListViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLBTopBtnListViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525AA0A41FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBTopBtnListViewDemoUITests.m; sourceTree = "<group>"; };
+		525AA0A61FEA202800EB9494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525AA0B31FEA209A00EB9494 /* TopGiftListBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopGiftListBtnView.m; sourceTree = "<group>"; };
+		525AA0B41FEA209A00EB9494 /* TopGiftListBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopGiftListBtnView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525AA07A1FEA202600EB9494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AA0921FEA202700EB9494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AA09D1FEA202700EB9494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525AA0741FEA202600EB9494 = {
+			isa = PBXGroup;
+			children = (
+				525AA07F1FEA202600EB9494 /* YLBTopBtnListViewDemo */,
+				525AA0981FEA202700EB9494 /* YLBTopBtnListViewDemoTests */,
+				525AA0A31FEA202800EB9494 /* YLBTopBtnListViewDemoUITests */,
+				525AA07E1FEA202600EB9494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525AA07E1FEA202600EB9494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525AA07D1FEA202600EB9494 /* YLBTopBtnListViewDemo.app */,
+				525AA0951FEA202700EB9494 /* YLBTopBtnListViewDemoTests.xctest */,
+				525AA0A01FEA202700EB9494 /* YLBTopBtnListViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525AA07F1FEA202600EB9494 /* YLBTopBtnListViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				525AA0B21FEA209A00EB9494 /* YLBTopBtnListView */,
+				525AA0801FEA202600EB9494 /* AppDelegate.h */,
+				525AA0811FEA202600EB9494 /* AppDelegate.m */,
+				525AA0831FEA202600EB9494 /* ViewController.h */,
+				525AA0841FEA202600EB9494 /* ViewController.m */,
+				525AA0861FEA202700EB9494 /* Main.storyboard */,
+				525AA0891FEA202700EB9494 /* Assets.xcassets */,
+				525AA08B1FEA202700EB9494 /* LaunchScreen.storyboard */,
+				525AA08E1FEA202700EB9494 /* Info.plist */,
+				525AA08F1FEA202700EB9494 /* main.m */,
+			);
+			path = YLBTopBtnListViewDemo;
+			sourceTree = "<group>";
+		};
+		525AA0981FEA202700EB9494 /* YLBTopBtnListViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				525AA0991FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m */,
+				525AA09B1FEA202700EB9494 /* Info.plist */,
+			);
+			path = YLBTopBtnListViewDemoTests;
+			sourceTree = "<group>";
+		};
+		525AA0A31FEA202800EB9494 /* YLBTopBtnListViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525AA0A41FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m */,
+				525AA0A61FEA202800EB9494 /* Info.plist */,
+			);
+			path = YLBTopBtnListViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		525AA0B21FEA209A00EB9494 /* YLBTopBtnListView */ = {
+			isa = PBXGroup;
+			children = (
+				525AA0B31FEA209A00EB9494 /* TopGiftListBtnView.m */,
+				525AA0B41FEA209A00EB9494 /* TopGiftListBtnView.h */,
+			);
+			path = YLBTopBtnListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525AA07C1FEA202600EB9494 /* YLBTopBtnListViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525AA0A91FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemo" */;
+			buildPhases = (
+				525AA0791FEA202600EB9494 /* Sources */,
+				525AA07A1FEA202600EB9494 /* Frameworks */,
+				525AA07B1FEA202600EB9494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLBTopBtnListViewDemo;
+			productName = YLBTopBtnListViewDemo;
+			productReference = 525AA07D1FEA202600EB9494 /* YLBTopBtnListViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525AA0941FEA202700EB9494 /* YLBTopBtnListViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525AA0AC1FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemoTests" */;
+			buildPhases = (
+				525AA0911FEA202700EB9494 /* Sources */,
+				525AA0921FEA202700EB9494 /* Frameworks */,
+				525AA0931FEA202700EB9494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525AA0971FEA202700EB9494 /* PBXTargetDependency */,
+			);
+			name = YLBTopBtnListViewDemoTests;
+			productName = YLBTopBtnListViewDemoTests;
+			productReference = 525AA0951FEA202700EB9494 /* YLBTopBtnListViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525AA09F1FEA202700EB9494 /* YLBTopBtnListViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525AA0AF1FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemoUITests" */;
+			buildPhases = (
+				525AA09C1FEA202700EB9494 /* Sources */,
+				525AA09D1FEA202700EB9494 /* Frameworks */,
+				525AA09E1FEA202700EB9494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525AA0A21FEA202700EB9494 /* PBXTargetDependency */,
+			);
+			name = YLBTopBtnListViewDemoUITests;
+			productName = YLBTopBtnListViewDemoUITests;
+			productReference = 525AA0A01FEA202700EB9494 /* YLBTopBtnListViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525AA0751FEA202600EB9494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "余礼钵";
+				TargetAttributes = {
+					525AA07C1FEA202600EB9494 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					525AA0941FEA202700EB9494 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525AA07C1FEA202600EB9494;
+					};
+					525AA09F1FEA202700EB9494 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525AA07C1FEA202600EB9494;
+					};
+				};
+			};
+			buildConfigurationList = 525AA0781FEA202600EB9494 /* Build configuration list for PBXProject "YLBTopBtnListViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525AA0741FEA202600EB9494;
+			productRefGroup = 525AA07E1FEA202600EB9494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525AA07C1FEA202600EB9494 /* YLBTopBtnListViewDemo */,
+				525AA0941FEA202700EB9494 /* YLBTopBtnListViewDemoTests */,
+				525AA09F1FEA202700EB9494 /* YLBTopBtnListViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525AA07B1FEA202600EB9494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525AA08D1FEA202700EB9494 /* LaunchScreen.storyboard in Resources */,
+				525AA08A1FEA202700EB9494 /* Assets.xcassets in Resources */,
+				525AA0881FEA202700EB9494 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AA0931FEA202700EB9494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AA09E1FEA202700EB9494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525AA0791FEA202600EB9494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525AA0851FEA202600EB9494 /* ViewController.m in Sources */,
+				525AA0901FEA202700EB9494 /* main.m in Sources */,
+				525AA0821FEA202600EB9494 /* AppDelegate.m in Sources */,
+				525AA0B51FEA209A00EB9494 /* TopGiftListBtnView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AA0911FEA202700EB9494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525AA09A1FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AA09C1FEA202700EB9494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525AA0A51FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525AA0971FEA202700EB9494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525AA07C1FEA202600EB9494 /* YLBTopBtnListViewDemo */;
+			targetProxy = 525AA0961FEA202700EB9494 /* PBXContainerItemProxy */;
+		};
+		525AA0A21FEA202700EB9494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525AA07C1FEA202600EB9494 /* YLBTopBtnListViewDemo */;
+			targetProxy = 525AA0A11FEA202700EB9494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525AA0861FEA202700EB9494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525AA0871FEA202700EB9494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525AA08B1FEA202700EB9494 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525AA08C1FEA202700EB9494 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525AA0A71FEA202800EB9494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		525AA0A81FEA202800EB9494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525AA0AA1FEA202800EB9494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBTopBtnListViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.living.YLBTopBtnListViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525AA0AB1FEA202800EB9494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBTopBtnListViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.living.YLBTopBtnListViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525AA0AD1FEA202800EB9494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBTopBtnListViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.living.YLBTopBtnListViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLBTopBtnListViewDemo.app/YLBTopBtnListViewDemo";
+			};
+			name = Debug;
+		};
+		525AA0AE1FEA202800EB9494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBTopBtnListViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.living.YLBTopBtnListViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLBTopBtnListViewDemo.app/YLBTopBtnListViewDemo";
+			};
+			name = Release;
+		};
+		525AA0B01FEA202800EB9494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBTopBtnListViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.living.YLBTopBtnListViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLBTopBtnListViewDemo;
+			};
+			name = Debug;
+		};
+		525AA0B11FEA202800EB9494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBTopBtnListViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.living.YLBTopBtnListViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLBTopBtnListViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525AA0781FEA202600EB9494 /* Build configuration list for PBXProject "YLBTopBtnListViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AA0A71FEA202800EB9494 /* Debug */,
+				525AA0A81FEA202800EB9494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525AA0A91FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AA0AA1FEA202800EB9494 /* Debug */,
+				525AA0AB1FEA202800EB9494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525AA0AC1FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AA0AD1FEA202800EB9494 /* Debug */,
+				525AA0AE1FEA202800EB9494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525AA0AF1FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AA0B01FEA202800EB9494 /* Debug */,
+				525AA0B11FEA202800EB9494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525AA0751FEA202600EB9494 /* Project object */;
+}
