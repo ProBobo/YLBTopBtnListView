@@ -2,7 +2,7 @@
 通用按钮选项卡
 <br>
 <br>安装：pod 'YLBTopBtnListView'
-<br>或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ylb3303/YLBTopBtnListView.git'
+<br>或者：pod 'YLBTopBtnListView', :git =>'https://github.com/ProBobo/YLBTopBtnListView.git'
 <br>
 用法：
 <pre><code>
