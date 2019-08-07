@@ -15,7 +15,7 @@
 		525AA0901FEA202700EB9494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA08F1FEA202700EB9494 /* main.m */; };
 		525AA09A1FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0991FEA202700EB9494 /* YLBTopBtnListViewDemoTests.m */; };
 		525AA0A51FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0A41FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m */; };
-		525AA0B51FEA209A00EB9494 /* TopGiftListBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525AA0B31FEA209A00EB9494 /* TopGiftListBtnView.m */; };
+		EDA6B1D685206EE4B2A9CB32 /* Pods_YLBTopBtnListViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1B04117418D546F3C8B205 /* Pods_YLBTopBtnListViewDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E8593A48DAEA180A291F53 /* Pods-YLBTopBtnListViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTopBtnListViewDemo.release.xcconfig"; path = "Target Support Files/Pods-YLBTopBtnListViewDemo/Pods-YLBTopBtnListViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		46A968D129FB485D77F599D3 /* Pods-YLBTopBtnListViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTopBtnListViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-YLBTopBtnListViewDemo/Pods-YLBTopBtnListViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		525AA07D1FEA202600EB9494 /* YLBTopBtnListViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBTopBtnListViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525AA0801FEA202600EB9494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		525AA0811FEA202600EB9494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,7 @@
 		525AA0A01FEA202700EB9494 /* YLBTopBtnListViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLBTopBtnListViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525AA0A41FEA202800EB9494 /* YLBTopBtnListViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBTopBtnListViewDemoUITests.m; sourceTree = "<group>"; };
 		525AA0A61FEA202800EB9494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		525AA0B31FEA209A00EB9494 /* TopGiftListBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopGiftListBtnView.m; sourceTree = "<group>"; };
-		525AA0B41FEA209A00EB9494 /* TopGiftListBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopGiftListBtnView.h; sourceTree = "<group>"; };
+		ED1B04117418D546F3C8B205 /* Pods_YLBTopBtnListViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBTopBtnListViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA6B1D685206EE4B2A9CB32 /* Pods_YLBTopBtnListViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24369DEB7D292E53E80578E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A968D129FB485D77F599D3 /* Pods-YLBTopBtnListViewDemo.debug.xcconfig */,
+				03E8593A48DAEA180A291F53 /* Pods-YLBTopBtnListViewDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		525AA0741FEA202600EB9494 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +99,8 @@
 				525AA0981FEA202700EB9494 /* YLBTopBtnListViewDemoTests */,
 				525AA0A31FEA202800EB9494 /* YLBTopBtnListViewDemoUITests */,
 				525AA07E1FEA202600EB9494 /* Products */,
+				24369DEB7D292E53E80578E5 /* Pods */,
+				82B157A4FB7AED5544BC4CE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +117,6 @@
 		525AA07F1FEA202600EB9494 /* YLBTopBtnListViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				525AA0B21FEA209A00EB9494 /* YLBTopBtnListView */,
 				525AA0801FEA202600EB9494 /* AppDelegate.h */,
 				525AA0811FEA202600EB9494 /* AppDelegate.m */,
 				525AA0831FEA202600EB9494 /* ViewController.h */,
@@ -136,13 +148,12 @@
 			path = YLBTopBtnListViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		525AA0B21FEA209A00EB9494 /* YLBTopBtnListView */ = {
+		82B157A4FB7AED5544BC4CE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				525AA0B31FEA209A00EB9494 /* TopGiftListBtnView.m */,
-				525AA0B41FEA209A00EB9494 /* TopGiftListBtnView.h */,
+				ED1B04117418D546F3C8B205 /* Pods_YLBTopBtnListViewDemo.framework */,
 			);
-			path = YLBTopBtnListView;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 525AA0A91FEA202800EB9494 /* Build configuration list for PBXNativeTarget "YLBTopBtnListViewDemo" */;
 			buildPhases = (
+				9D77BF317FD3CACD7DE94B05 /* [CP] Check Pods Manifest.lock */,
 				525AA0791FEA202600EB9494 /* Sources */,
 				525AA07A1FEA202600EB9494 /* Frameworks */,
 				525AA07B1FEA202600EB9494 /* Resources */,
+				A72A1905A730E8641002353D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,6 +286,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D77BF317FD3CACD7DE94B05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLBTopBtnListViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72A1905A730E8641002353D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YLBTopBtnListViewDemo/Pods-YLBTopBtnListViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YLBTopBtnListView/YLBTopBtnListView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBTopBtnListView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YLBTopBtnListViewDemo/Pods-YLBTopBtnListViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		525AA0791FEA202600EB9494 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +337,6 @@
 				525AA0851FEA202600EB9494 /* ViewController.m in Sources */,
 				525AA0901FEA202700EB9494 /* main.m in Sources */,
 				525AA0821FEA202600EB9494 /* AppDelegate.m in Sources */,
-				525AA0B51FEA209A00EB9494 /* TopGiftListBtnView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +497,7 @@
 		};
 		525AA0AA1FEA202800EB9494 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A968D129FB485D77F599D3 /* Pods-YLBTopBtnListViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +512,7 @@
 		};
 		525AA0AB1FEA202800EB9494 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E8593A48DAEA180A291F53 /* Pods-YLBTopBtnListViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

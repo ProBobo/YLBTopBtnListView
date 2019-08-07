@@ -1,0 +1,16 @@
+PODS:
+  - YLBTopBtnListView (1.0.2)
+
+DEPENDENCIES:
+  - YLBTopBtnListView (from `../`)
+
+EXTERNAL SOURCES:
+  YLBTopBtnListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLBTopBtnListView: 115a0e02c00124b081c1ecf6fd1886997bba99e1
+
+PODFILE CHECKSUM: 2bb1ed081e31de3899ccadc489a32d0828da364e
+
+COCOAPODS: 1.7.5
